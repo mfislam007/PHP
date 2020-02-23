@@ -1,0 +1,7 @@
+<?php
+
+$number=$_GET["number"];
+
+ echo("The absolute value of the number $number is ");
+ echo(abs($number));
+?>

@@ -1,0 +1,4 @@
+<?php
+    echo "This is the first program.";
+    echo "PHP, here we go!";
+?>

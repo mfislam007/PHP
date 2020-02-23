@@ -1,0 +1,9 @@
+<?php
+$a=$_GET["name"];
+$b=$_GET["message"];
+if(empty($a)||empty($b))
+{echo"You didn’t give all required information!";}
+else
+{
+	echo $a,": ",$b;}
+?>

@@ -1,0 +1,6 @@
+<?php
+$myString = "This program contains errors";
+$myString = "You need to fix them";
+echo "This program contains errors.\n";
+echo "You need to fix them.";
+?>

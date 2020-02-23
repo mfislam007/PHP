@@ -1,0 +1,8 @@
+<?php
+
+$name=$_GET["color"];//name
+
+$food=$_GET["food"];//food
+ 
+ echo("Your favorite color is $name and your favorite food is $food");
+?>

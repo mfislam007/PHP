@@ -1,0 +1,26 @@
+<?php
+    $gender = $_GET["gender"];
+    $age=$_GET["age"];
+    if($gender == 'male' && $age == 2)
+    {
+    echo "You’re a man in his prime!";
+
+    }
+    else if ($gender == 'male' && $age == 1)
+    {
+
+    echo "You are a wise man!";
+
+    }
+    else if ($gender == 'female' && $age == 1)
+    {
+
+    echo "You are a damsel at her most beautiful!";
+
+    }
+    else if ($gender  == 'female' && $age == 2)
+    {
+
+    echo "You look young for your age!";
+    }
+?> 

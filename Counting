@@ -1,0 +1,16 @@
+<?php
+$i=$_GET["number"];
+
+if($i>=0)
+while ($i>=0)
+  {
+
+  echo " " . $i . "";
+
+  $i--;
+
+  }
+
+else
+echo"The number should be at least zero!";
+?>

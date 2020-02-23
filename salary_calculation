@@ -1,0 +1,15 @@
+<?php
+$a=$_GET["hours"];
+$b=$_GET["perhour"];
+$c=$_GET["tax"];
+
+if ($a==0 || $b==0|| $c==0)
+{echo"Fill out all the fields.";}
+ else
+ {
+echo"Gross salary: ",$a*$b;
+echo"Tax deduction: ",$a*$b*$c/100;
+echo"Net salary: ",($a*$b)-($a*$b*$c/100);
+
+ }
+?>

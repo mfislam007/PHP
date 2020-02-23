@@ -1,0 +1,15 @@
+<?php
+$a=$_GET["firstnumber"];
+$b=$_GET["secondnumber"];
+
+if ($b==0)
+{echo "The result of multiplication is: " ,$a*$b ;
+	echo "The result of division is: You can’t divide with a zero.";}
+else
+{
+echo "The result of multiplication is: " ,$a*$b ;
+
+echo"The result of division is: ",$a/$b;
+}
+
+?>

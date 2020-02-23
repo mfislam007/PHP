@@ -1,0 +1,20 @@
+<?php
+$incr = array();
+foreach(file('grades.txt') as $v) # Opening the file and looping through the values
+{
+if($v==5){$incr[]=$v;} # If grade is greater than 5 , dont increment
+else{
+$incr[]=$v+1;
+}
+}
+echo"New grades:";
+//array_walk($incr,function(&$v){ $v=trim($v);});
+$incr = array_map('trim',$incr);
+$str = implode(PHP_EOL,$incr); # Implodes the array with PHP_EOL
+file_put_contents('results.txt',$str); # Writes to the file
+#Displaying from results...
+foreach(file('results.txt') as $v) # Opening the new file and displaying the results
+{
+
+echo $v."";
+} 
